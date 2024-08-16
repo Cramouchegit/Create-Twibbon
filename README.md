@@ -1,11 +1,29 @@
-## Installation
+- ## Installation
 
-`pnpm install`
+1. Clone the repository:
 
-## Run the Code
+    ```bash
+    https://github.com/Cramouchegit/Create-Twibbon.git
+    ```
 
-`pnpm run dev`
+2. Navigate to the project directory:
 
-<h2>Demo</h2>
+    ```bash
+    cd your-project
+    ```
 
+3. Install module dependencies:
 
+    ```bash
+    pnpm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    pnpm run dev
+    ```
+
+### Usage
+
+Visit `http://localhost:3000` in your browser to access the web-based landing page generator.
