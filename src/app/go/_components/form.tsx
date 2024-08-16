@@ -150,6 +150,12 @@ export default function Form({ searchParams }: Readonly<Props>) {
           Guntur Alamsyah
         </a>
       </p>
+      <h5 className="text-slate-500 text-center text-xs">
+        Contributors With{" "}
+        <a href="https://github.com/irfan-za" className="text-red-600">
+          Irfan-za
+        </a>
+      </h5>
       <h4 className="text-red-600 mt-10">
         Selamat Hari Ulang Tahun Republik Indonesia yang ke-79! Di momen yang
         bersejarah ini, mari kita bersama-sama menjaga semangat persatuan dan
