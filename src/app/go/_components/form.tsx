@@ -139,6 +139,27 @@ export default function Form({ searchParams }: Readonly<Props>) {
           <FaDownload /> Download
         </Button>
       </div>
+      <p className="text-center text-slate-500 text-xs">
+        Dibuat dengan ❤️ oleh{" "}
+        <a
+          href="https://github.com/Cramouchegit"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="text-red-600"
+        >
+          Guntur Alamsyah
+        </a>
+      </p>
+      <h4 className="text-red-600 mt-10">
+        Selamat Hari Ulang Tahun Republik Indonesia yang ke-79! Di momen yang
+        bersejarah ini, mari kita bersama-sama menjaga semangat persatuan dan
+        kesatuan untuk membangun bangsa yang lebih maju, adil, dan sejahtera.
+        Merdeka bukan hanya berarti kebebasan dari penjajahan, tetapi juga
+        kebebasan untuk berkarya, berinovasi, dan berkontribusi bagi kemajuan
+        negeri. Mari kita terus menjaga dan mengisi kemerdekaan ini dengan
+        semangat gotong royong dan kerja keras, demi Indonesia yang lebih baik.
+        Dirgahayu Republik Indonesia, Merdeka!
+      </h4>
     </div>
   );
 }

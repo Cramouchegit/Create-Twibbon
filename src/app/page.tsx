@@ -6,7 +6,7 @@ export default function Home({ searchParams }: Readonly<Props>) {
   const [fileName, setFileName] = useState<string | null>(null);
 
   const handleLoadImage = async () => {
-    const imageUrl = "/frame.png";
+    const imageUrl = "/HutIndo.png";
     const response = await fetch(imageUrl);
     const blob = await response.blob();
     const reader = new FileReader();
@@ -16,7 +16,7 @@ export default function Home({ searchParams }: Readonly<Props>) {
       localStorage.setItem("customFrameUrl", result);
     };
 
-    setFileName("frame.png");
+    setFileName("HutIndo.png");
     reader.readAsDataURL(blob);
   };
   useEffect(() => {
